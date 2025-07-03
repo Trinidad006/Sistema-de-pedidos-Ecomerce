@@ -9,3 +9,4 @@ C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\E
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\refint\ECommerceSystem.Core.dll
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.pdb
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ref\ECommerceSystem.Core.dll
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.sourcelink.json

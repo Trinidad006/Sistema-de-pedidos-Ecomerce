@@ -13,3 +13,4 @@ C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Application\obj\Debug\n
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Application\obj\Debug\net9.0\refint\ECommerceSystem.Application.dll
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Application\obj\Debug\net9.0\ECommerceSystem.Application.pdb
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Application\obj\Debug\net9.0\ref\ECommerceSystem.Application.dll
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Application\obj\Debug\net9.0\ECommerceSystem.Application.sourcelink.json
