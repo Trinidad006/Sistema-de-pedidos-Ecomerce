@@ -1,0 +1,11 @@
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\bin\Debug\net9.0\ECommerceSystem.Core.deps.json
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\bin\Debug\net9.0\ECommerceSystem.Core.dll
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\bin\Debug\net9.0\ECommerceSystem.Core.pdb
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.AssemblyInfoInputs.cache
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.AssemblyInfo.cs
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.dll
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\refint\ECommerceSystem.Core.dll
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.pdb
+C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ref\ECommerceSystem.Core.dll
