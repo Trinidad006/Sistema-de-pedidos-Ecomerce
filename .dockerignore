@@ -1,0 +1,18 @@
+# Ignora archivos y carpetas innecesarios para la imagen Docker
+.git
+.gitignore
+*.md
+*.user
+*.vs
+bin/
+obj/
+.vscode/
+Dockerfile
+.env
+node_modules/
+**/bin/
+**/obj/
+**/.vscode/
+**/*.db
+**/*.sqlite
+**/*.log 

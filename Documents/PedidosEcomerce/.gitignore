@@ -1,0 +1,26 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Others
+*.log
+*.db
+*.sqlite
+*.p12
+*.pfx
+*.key
+*.crt
+*.env
+
+# Rider
+.idea/
+*.sln.iml 

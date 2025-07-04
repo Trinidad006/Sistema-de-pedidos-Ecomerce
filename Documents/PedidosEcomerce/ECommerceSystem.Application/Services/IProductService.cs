@@ -8,4 +8,5 @@ public interface IProductService
     Product? GetProductById(int id);
     IEnumerable<Product> GetProducts();
     void DeleteProduct(int id);
+    (IEnumerable<Product> products, int totalCount) GetPagedProducts(int page, int pageSize);
 } 

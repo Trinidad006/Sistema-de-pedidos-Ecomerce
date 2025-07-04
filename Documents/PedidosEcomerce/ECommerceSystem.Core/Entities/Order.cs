@@ -9,6 +9,7 @@ public class Order
     public OrderStatus Status { get; private set; }
     private readonly List<OrderItem> _items = new();
     public IReadOnlyCollection<OrderItem> Items => _items.AsReadOnly();
+    private static int _nextItemId = 1;
 
     public Order()
     {
@@ -16,18 +17,21 @@ public class Order
         OrderDate = DateTime.UtcNow;
     }
 
-    public void AddItem(Product product, int quantity)
+    public OrderItem AddItem(Product product, int quantity)
     {
         if (Status == OrderStatus.Enviado)
         {
             throw new InvalidOperationException("No se pueden agregar items a un pedido 'Enviado'.");
         }
-        _items.Add(new OrderItem
+        var item = new OrderItem
         {
+            Id = _nextItemId++,
             ProductId = product.Id,
             Quantity = quantity,
             Price = product.Price
-        });
+        };
+        _items.Add(item);
+        return item;
     }
 
     public void ChangeStatus(OrderStatus newStatus)

@@ -20,11 +20,12 @@ public class OrderService : IOrderService
         return order;
     }
 
-    public void AddItemToOrder(int orderId, int productId, int quantity)
+    public OrderItem AddItemToOrder(int orderId, int productId, int quantity)
     {
         var order = GetOrderById(orderId) ?? throw new KeyNotFoundException("Orden no encontrada.");
         var product = _productService.GetProductById(productId) ?? throw new KeyNotFoundException("Producto no encontrado.");
-        order.AddItem(product, quantity);
+        var item = order.AddItem(product, quantity);
+        return item;
     }
 
     public void UpdateOrderStatus(int orderId, OrderStatus newStatus)
@@ -34,4 +35,12 @@ public class OrderService : IOrderService
     }
 
     public Order? GetOrderById(int id) => _orders.FirstOrDefault(o => o.Id == id);
+
+    public IEnumerable<Order> GetOrders() => _orders;
+
+    public void DeleteOrder(int id)
+    {
+        var order = GetOrderById(id);
+        if (order != null) _orders.Remove(order);
+    }
 } 

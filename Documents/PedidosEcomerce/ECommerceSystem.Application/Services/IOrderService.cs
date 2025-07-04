@@ -6,6 +6,8 @@ public interface IOrderService
 {
     Order CreateOrder();
     Order? GetOrderById(int id);
-    void AddItemToOrder(int orderId, int productId, int quantity);
+    OrderItem AddItemToOrder(int orderId, int productId, int quantity);
     void UpdateOrderStatus(int orderId, OrderStatus newStatus);
+    IEnumerable<Order> GetOrders();
+    void DeleteOrder(int id);
 } 

@@ -13,7 +13,9 @@ builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>
     {
-        policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod();
+        policy.AllowAnyOrigin()
+              .AllowAnyHeader()
+              .AllowAnyMethod();
     });
 });
 
@@ -70,12 +72,16 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // Inyección de dependencias
-builder.Services.AddSingleton<IProductService, ProductService>();
-builder.Services.AddSingleton<IOrderService, OrderService>();
+builder.Services.AddScoped<IProductService, ECommerceSystem.Api.Services.EfProductService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
+builder.Services.AddScoped<IProductRepository, ECommerceSystem.Api.Services.ProductRepository>();
 
 // Registrar el contexto de Supabase
-builder.Services.AddDbContext<SupabaseContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddDbContext<EcommerceContext>(options =>
+    options.UseMySql(
+        builder.Configuration.GetConnectionString("DefaultConnection"),
+        ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))
+    ));
 
 var app = builder.Build();
 

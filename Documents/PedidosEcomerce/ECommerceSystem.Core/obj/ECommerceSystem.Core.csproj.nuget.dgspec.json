@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lax_m\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\ECommerceSystem.Core.csproj": {}
+    "C:\\Users\\cocom\\Desktop\\Sistema-de-pedidos-Ecomerce\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\ECommerceSystem.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lax_m\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\ECommerceSystem.Core.csproj": {
+    "C:\\Users\\cocom\\Desktop\\Sistema-de-pedidos-Ecomerce\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\ECommerceSystem.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lax_m\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\ECommerceSystem.Core.csproj",
+        "projectUniqueName": "C:\\Users\\cocom\\Desktop\\Sistema-de-pedidos-Ecomerce\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\ECommerceSystem.Core.csproj",
         "projectName": "ECommerceSystem.Core",
-        "projectPath": "C:\\Users\\lax_m\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\ECommerceSystem.Core.csproj",
-        "packagesPath": "C:\\Users\\lax_m\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lax_m\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\obj\\",
+        "projectPath": "C:\\Users\\cocom\\Desktop\\Sistema-de-pedidos-Ecomerce\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\ECommerceSystem.Core.csproj",
+        "packagesPath": "C:\\Users\\cocom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cocom\\Desktop\\Sistema-de-pedidos-Ecomerce\\Documents\\PedidosEcomerce\\ECommerceSystem.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lax_m\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\cocom\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -54,12 +54,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.17, 8.0.17]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

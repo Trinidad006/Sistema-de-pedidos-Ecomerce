@@ -10,3 +10,15 @@ C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\r
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.pdb
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ref\ECommerceSystem.Core.dll
 C:\Users\lax_m\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.sourcelink.json
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\bin\Debug\net9.0\ECommerceSystem.Core.deps.json
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\bin\Debug\net9.0\ECommerceSystem.Core.dll
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\bin\Debug\net9.0\ECommerceSystem.Core.pdb
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.AssemblyInfoInputs.cache
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.AssemblyInfo.cs
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.csproj.CoreCompileInputs.cache
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.sourcelink.json
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.dll
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\refint\ECommerceSystem.Core.dll
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ECommerceSystem.Core.pdb
+C:\Users\cocom\Desktop\Sistema-de-pedidos-Ecomerce\Documents\PedidosEcomerce\ECommerceSystem.Core\obj\Debug\net9.0\ref\ECommerceSystem.Core.dll
